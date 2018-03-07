@@ -65,8 +65,7 @@ def hidden_tresure():
     ran_font = random.choice(fig_font)
     cprint(figlet_format("hidden treasure", font=ran_font), 'red', 'on_grey', attrs=['bold'])
     print("[!] " + ran_font)
-    # cprint(figlet_format("Powerd by team Hidden Treasure", font='term'), 'blue', 'on_grey',
-    #        attrs=['bold'])
+    
     pass
 
 
